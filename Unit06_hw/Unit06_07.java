@@ -8,6 +8,7 @@ public class Unit06_07 {
 		int totalPrice=0;
 		String line=sc.nextLine();
 		String[] token=line.split(" ");
+        sc.close();
 		if(isInt(token[0])){
 			switch(token.length){
 				case 1:totalPrice=compute(Integer.valueOf(token[0]));
