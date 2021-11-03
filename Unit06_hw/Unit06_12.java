@@ -21,8 +21,7 @@ public class Student {
         id = "ACS001";
     }
     public Student(int age,int grade,String name,String id){
-        this(age);
-        //this(grade);
+        this.age = age;
         this.grade = grade;
         this.name = name;
         this.id = id;
