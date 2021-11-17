@@ -7,5 +7,4 @@ public class Unit07_04 {
         System.out.println(str.toUpperCase());
         System.out.print(str.toLowerCase());
     }
-
 }
