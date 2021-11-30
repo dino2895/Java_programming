@@ -13,6 +13,8 @@ public class Unit08_04{
                 j++;
                 x++;
             }
+            if(x==d.length())
+                break;
         }
         if(x==d.length())
             System.out.print("Y");
