@@ -110,6 +110,5 @@ public class HourlyEmployee extends Employee
             &&otherEmployee.getRate()==wageRate
             &&otherEmployee.getHours()==hours;
         }
-	 }
-    }
+	}
 }
